@@ -1,0 +1,9 @@
+header {
+  background-color: rgba(50, 50, 50, 0.7);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

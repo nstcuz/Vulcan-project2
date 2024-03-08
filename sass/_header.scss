@@ -1,0 +1,11 @@
+@use 'vars' as *;
+@use 'mixins' as *;
+
+header {
+    background-color: $header-bg-color;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

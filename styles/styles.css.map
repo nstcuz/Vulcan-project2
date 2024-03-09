@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["../sass/_header.scss","../sass/_vars.scss"],"names":[],"mappings":"AAGA;EACI,kBCHc;EDId;EAEA;EACA;EACA","file":"styles.css"}
+{
+"version": 3,
+"mappings": "AAAA,gBAAgB;AAEhB,kBAAkB;AAGlB,sBAAsB;AAGtB,kBAAkB;AAClB,eAAe;AACf,gBAAgB;AAChB,kBAAkB",
+"sources": ["../scss/styles.scss"],
+"names": [],
+"file": "styles.css"
+}

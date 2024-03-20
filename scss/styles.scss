@@ -1,5 +1,4 @@
 @use 'vars' as *;
-
 @use 'mixins' as *;
 
 //typography
@@ -8,5 +7,6 @@
 //sections
 @use 'header' as *;
 @use 'nav' as *;
+@use 'header-carousel' as *;
 @use 'body' as *;
 @use 'footer' as *;

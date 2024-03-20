@@ -1,9 +1,14 @@
-@use 'vars' as *;
-@use 'mixins' as *;
-@use 'typography' as *;
-@use 'header' as *;
-@use 'nav' as *;
-@use 'body' as *;
-@use 'footer' as *;
+header {
+  background-color: rgba(50, 50, 50, 0.7);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+* {
+  font-family: "Roboto";
+  color: black;
+}
 
 /*# sourceMappingURL=styles.css.map */

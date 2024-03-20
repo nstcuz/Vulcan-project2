@@ -48,3 +48,37 @@ setInterval(() => {
     changePicture();
     nextImage();
 }, 4000);
+
+
+//hamburger menu stuff ====================================start
+const menuButton = document.getElementById('menu-button');
+const menuNav = document.getElementById('menu-nav');
+
+function showNav() {
+    menuNav.style.display = 'block';
+};
+
+function hideNav() {
+    menuNav.style.display = 'none';
+};
+
+function hamburgerState(isOpen) {
+    menuButton.setAttribute('aria-expanded', isOpen.toString());
+};
+
+function toggleNav() {
+    const isOpen = menuNav.style.display === 'block';
+    
+    if (!isOpen) {
+        showNav();
+    } else {
+        hideNav();
+    }
+
+    hamburgerState(!isOpen);
+}
+
+menuButton.addEventListener('click', function () {
+    toggleNav();
+});
+//hamburger menu stuff =======================================end

@@ -53,11 +53,13 @@ h2.heading-1 {
 }
 
 .advisor p {
+    margin: .625rem;
     padding: .625rem 0 1.25rem;
     font-size: $font-size-body2;
 }
 
 .advisor form label {
+    margin: 1.25rem .625rem .375rem;
     font-family: $font-condensed;
     font-weight: 700;
     font-size: $font-size-body2;   

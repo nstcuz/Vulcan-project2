@@ -2,7 +2,8 @@
 @use 'mixins' as *;
 
 .advisor {
-    margin: .625rem;
+    // margin: .625rem;
+    background-color: $dark-blue;
 }
 
 .advisor p {
@@ -11,4 +12,9 @@
 
 .advisor form label {
     display: block;
+}
+
+.advisor form select {
+    margin: .625rem;
+    width: 100%;
 }

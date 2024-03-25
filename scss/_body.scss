@@ -1,14 +1,17 @@
 @use 'vars' as *;
 @use 'mixins' as *;
 
-body {
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: $font;
     color:$white;
 }
 
 .logo {
-    padding: .625rem;
+    // padding: .625rem;
     width: 6.25rem;
 }

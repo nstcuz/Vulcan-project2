@@ -8,28 +8,16 @@
     fill: $white;
     display: block;
     position: fixed;
-    // top: .5rem;
-    right: 1rem;
-    // z-index: 100;
+    right: 0.5rem;
   }
 
 .menu-button .line {
-    transition: transform 200ms ease-in 200ms, rotate 200ms ease-in, opacity 0ms 200ms;
-    transform-origin: center;
-}
-
-.menu-button[aria-expanded=true] .line {
-    transition: transform 200ms ease-in, rotate 200ms ease-in 200ms, opacity 0ms 200ms;
-    transform-origin: center;
-}
-
-.menu-button[aria-expanded=true] :is(.ham-top, .ham-bottom) {
-    transform: translateY(45px);
+    transition: transform 200ms ease-in, opacity 200ms ease-in;
+    transform-origin: center center; 
 }
 
 .menu-button[aria-expanded=true] .ham-top {
-    rotate: 45deg;
-    transform: translate(3px, 29px);
+    transform: translate(15px, 21px) rotate(-45deg);
 }
 
 .menu-button[aria-expanded=true] .ham-middle {
@@ -37,6 +25,5 @@
 }
 
 .menu-button[aria-expanded=true] .ham-bottom {
-    rotate: -45deg;
-    transform: translate(-3px, -31px);
+    transform: translate(25px, -17px) rotate(45deg);
 }

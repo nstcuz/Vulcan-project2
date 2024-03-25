@@ -1,0 +1,12 @@
+@use 'vars' as *;
+@use 'mixins' as *;
+
+.bordered-button p {
+    border: $border-box1;
+    padding: .875rem .625rem;
+    display: inline;
+}
+
+.find p {
+    border: $border-box2;
+}

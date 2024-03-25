@@ -1,3 +1,28 @@
+body {
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+}
+
+nav > ul {
+  font-family: "Roboto Condensed";
+}
+
+a.bordered-button {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+a.view {
+  font-weight: 500;
+}
+
+a.find {
+  color: rgb(80, 80, 80);
+}
+
 header {
   padding: 0 0.5rem;
   background-color: rgba(50, 50, 50, 0.7);
@@ -25,7 +50,6 @@ nav > ul {
   display: none;
   list-style: none;
   text-transform: uppercase;
-  font-family: "Roboto Condensed";
 }
 
 nav ul li {
@@ -74,8 +98,6 @@ nav ul li:hover {
 }
 
 body {
-  font-family: "Roboto";
-  color: rgb(255, 255, 255);
   background-color: #9cc567;
 }
 
@@ -107,6 +129,16 @@ section {
   width: 51.25rem;
   height: 9rem;
   left: -8.125rem;
+}
+
+.bordered-button p {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 0.875rem 0.625rem;
+  display: inline;
+}
+
+.find p {
+  border: 1px solid rgb(80, 80, 80);
 }
 
 /*# sourceMappingURL=styles.css.map */

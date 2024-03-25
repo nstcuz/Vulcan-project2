@@ -1,2 +1,27 @@
 @use 'vars' as *;
 @use 'mixins' as *;
+
+body {
+    font-family: $font;
+    color:$font-text-color1;
+}
+
+nav > ul {
+    font-family: $font-condensed;
+}
+
+a.bordered-button {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    color: $font-text-color1;
+}
+
+a.view {
+    font-weight: 500;
+}
+
+a.find {
+    color: $font-text-color3;
+}

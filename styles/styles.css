@@ -40,6 +40,26 @@ h2.heading-1 {
   color: black;
 }
 
+.advisor h2,
+.advisor p {
+  text-align: center;
+}
+
+.advisor h2 {
+  margin: 5.5rem auto 0rem;
+}
+
+.advisor p {
+  padding: 0.625rem 0 1.25rem;
+  font-size: 0.875rem;
+}
+
+.advisor form label {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
 h2.sign-up {
   font-weight: 400;
   font-size: 1.25rem;
@@ -236,6 +256,18 @@ section {
 .treatment img {
   margin: 0.625rem;
   height: 10.125rem;
+}
+
+.advisor {
+  margin: 0.625rem;
+}
+
+.advisor p {
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.advisor form label {
+  display: block;
 }
 
 .bordered-button p {

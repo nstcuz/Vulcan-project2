@@ -43,6 +43,26 @@ h2.heading-1 {
     color: black; //will remove, the font colors need to get changed so not the whole body is affected by $font-text-color1
 }
 
+.advisor h2,
+.advisor p {
+    text-align: center;
+}
+
+.advisor h2 {
+    margin: 5.5rem auto 0rem;
+}
+
+.advisor p {
+    padding: .625rem 0 1.25rem;
+    font-size: $font-size-body2;
+}
+
+.advisor form label {
+    font-family: $font-condensed;
+    font-weight: 700;
+    font-size: $font-size-body2;   
+}
+
 h2.sign-up {
     font-weight: 400;
     font-size: $font-size-header3;

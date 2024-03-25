@@ -113,6 +113,36 @@ nav ul li:hover {
   transform: translate(25px, -17px) rotate(45deg);
 }
 
+.hero-carousel {
+  height: 100vh;
+  text-align: center;
+}
+
+.slide {
+  border: solid 3px blue;
+}
+
+h1 {
+  position: relative;
+  top: 7.25rem;
+}
+
+.bordered-button {
+  position: relative;
+  top: 12rem;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+#heroImage {
+  position: absolute;
+  top: 31.84%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 325%;
+  z-index: -10;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -18,6 +18,31 @@ h2.heading-1 {
     font-size: $font-size-header1;
 }
 
+.treatment h2,
+.treatment h3 {
+    color: $font-header-color2;
+}
+
+.treatment h2,
+.treatment p {
+    text-align: center;
+}
+
+.treatment h2 {
+    margin: 5.5rem auto 0rem;
+    width: 8rem;
+}
+
+.treatment h3 {
+    width: 6.25rem;
+}
+
+.treatment p {
+    margin: 1rem 2.25rem;
+    font-size: $font-size-body2;
+    color: black; //will remove, the font colors need to get changed so not the whole body is affected by $font-text-color1
+}
+
 h2.sign-up {
     font-weight: 400;
     font-size: $font-size-header3;

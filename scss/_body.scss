@@ -2,6 +2,40 @@
 @use 'mixins' as *;
 
 * {
-    font-family: $font;
-    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #9cc567;
+}
+
+section {
+    position: relative;
+}
+
+.logo {
+        width: 6.25rem;
+}
+
+.wave {
+    position: absolute;
+    z-index: -100;
+}
+
+.wave-white,
+.wave-darkblue {
+    width: 46rem;
+    height: 9rem;
+    left: -4.25rem;
+}
+
+.wave-white {
+    z-index: 100;
+}
+
+.wave-lightblue {
+    width: 51.25rem;
+    height: 9rem;
+    left: -8.125rem;
 }

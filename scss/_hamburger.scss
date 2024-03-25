@@ -1,0 +1,29 @@
+@use 'vars' as *;
+@use 'mixins' as *;
+
+.menu-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    fill: $white;
+    display: block;
+    position: fixed;
+    right: .5rem;
+  }
+
+.menu-button .line {
+    transition: transform 200ms ease-in, opacity 200ms ease-in;
+    transform-origin: center center; 
+}
+
+.menu-button[aria-expanded=true] .ham-top {
+    transform: translate(15px, 21px) rotate(-45deg);
+}
+
+.menu-button[aria-expanded=true] .ham-middle {
+    opacity: 0;
+}
+
+.menu-button[aria-expanded=true] .ham-bottom {
+    transform: translate(25px, -17px) rotate(45deg);
+}

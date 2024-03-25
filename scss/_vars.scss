@@ -1,9 +1,39 @@
-// header
-$header-font: "Roboto Condensed";
-$header-bg-color: rgba(50,50,50,0.7);
-
 // body
 $font: "Roboto";
+$font-condensed: "Roboto Condensed";
+$font-size-header1: 1.875rem;
+$font-size-header2: 1.5rem;
+$font-size-header3: 1.25rem;
+$font-size-header4: 1.125rem;
+$font-size-body1: 1rem;
+$font-size-body2: .875rem;
+$font-size-select: .9375rem;
+
+$font-header-color1: rgb(255,255,255);
+$font-header-color2: rgb(85,85,85);
+$font-header-color3: rgb(21,74,102);
+$font-header-color4: rgb(80,80,80);
+$font-text-color1: rgb(255,255,255);
+$font-text-color2:  rgb(85,85,85);
+$font-text-color3: rgb(80,80,80);
+
+// colors
+$white: rgb(255,255,255);
+$dark-blue: rgb(21,74,102);
+$light-blue: rgb(1,157,220);
+$grey: rgb(85,85,85);
+$grey-dark: rgb(80,80,80);
+$newsletter-bg: rgb(190,220,239);
+
+//borders
+$border-box1: 1px solid rgb(255,255,255);
+$border-box2: 1px solid rgb(80,80,80);
+$border-bottom1: 1px solid rgb(204,204,204);
+$border-bottom2: 1px solid rgb(238,238,238);
+
+// header
+$header-bg-color: rgba(50,50,50,0.7);
+
 
 
 //footer

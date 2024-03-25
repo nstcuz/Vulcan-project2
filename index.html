@@ -19,17 +19,17 @@
         <!-- it will be in a flexbox with justify-content: space-between -->
         <a href=""><img src="images/logo-white-vulcan.svg" alt="Vulcan logo and home icon" class="logo"></a>
         <button id="menu-button" class="menu-button" aria-label="Main Menu" aria-controls="primary-navigation" aria-expanded="false">
-            <svg class="hamburger" viewBox="0 0 100 100" width="35">
+            <svg class="hamburger" viewBox="0 0 100 100" width="34">
                 <rect   class="line ham-top" 
-                        width="100" height="12" 
+                        width="100" height="10" 
                         x="0" y="22" rx="0">
                     </rect>
                 <rect   class="line ham-middle" 
-                        width="100" height="12" 
+                        width="100" height="10" 
                         x="0" y="50" rx="0">
                 </rect>
                 <rect   class="line ham-bottom" 
-                        width="100" height="12" 
+                        width="100" height="10" 
                         x="0" y="78" rx="0">
                 </rect>
             </svg>
@@ -52,6 +52,12 @@
             <!-- HERO IMAGE with text positioned over top the hero might be a carosel with multiple images-->
             <!-- 2 buttons, 'View products' && 'View services' [NN ADDED] -->
             <!-- blue dots which show which image is being viewed -->
+<<<<<<< HEAD
+=======
+            <h1>We design and fabricate indestructable wastewater screens. Enough said.</h1>
+            <a href="" class="bordered-button view"><p>View Products</p></a>
+            <a href="" class="bordered-button view"><p>View Services</p></a>
+>>>>>>> main
             <div class="slideshow-container">
                 <h1>We design and fabricate indestructable wastewater screens. Enough said.</h1>
                 <a href="" class="bordered-button"><p>View Products</p></a>
@@ -71,7 +77,7 @@
         </section>
         
         <section class="treatment">
-            <img src="images/wave-white.png" alt=""> <!-- NN: images that are purely decorative do not require alt tags as they don't add info to the page contents-->
+            <img class="wave wave-white" src="images/wave-white.png" alt=""> <!-- NN: images that are purely decorative do not require alt tags as they don't add info to the page contents-->
             <h2>Customized Per Order</h2>  <!-- text transform uppercase, text center alligned, -->
             <p>Just as no two treatment plants are the same, no two of our screening, grit handling or sludge thickening products are either. We'll help determine exactly what you need.</p>
             <!-- below this are 4 images with their respective titles i think it would be best to use a display: grid; 2 column -->
@@ -95,7 +101,7 @@
         </section>
 
         <section class="advisor">
-            <img src="images/wave-blue-dark.png" alt="">
+            <img class="wave wave-darkblue" src="images/wave-blue-dark.png" alt="">
             <h2>Product Advisor</h2>
             <p>Find your project's perfect fit.</p>
         <!-- there is a random border bottom here .125rem solid white [NN TOUCHED UP] -->
@@ -135,7 +141,7 @@
 
         <section class="about-us">
             <!-- hero image with h2 text in front of it and P text below, with a button below that [NN TOUCHED UP] -->
-            <h2>Delivering clean, safe water since 1975. Refreshing indeed.</h2>
+            <h2 class="heading-1">Delivering clean, safe water since 1975. Refreshing indeed.</h2>
             <p>Vulcan wastewater screening equipment has played a vital role in protecting the water supply of more than 900 cities and communities throughout the world.</p>
             <a href="" class="bordered-button"><p>About Us</p></a>
             
@@ -143,28 +149,28 @@
         </section>
 
         <section class="newsletter">
-            <h2>Stay in the know. Sign up for our newsletter</h2>
+            <h2 class="sign-up">Stay in the know. Sign up for our newsletter</h2>
             <!-- im not sure if this is semantically a form.... or if it is just an input && input type='submit' [NN ADDED]-->
             <form>
-                <input type="email" id="email" name="email" value="Enter your email">
+                <input type="email" id="email" name="email" value="Enter your email" autocomplete="email">
                 <input type="submit" value="Submit">
             </form>
         </section>
 
         <section class="installation">
             <!-- ANOTHER HERO IMAGE, THEY REALLY CANT GET ENOUGH OF THEM HEY [NN: LOL it's not a carousel at least!]-->
-            <h2>Installed in a city near you</h2>
-            <a href="" class="bordered-button"><p>Find a Vulcan install</p></a>
+            <h2 class="heading-1 find">Installed in a city near you</h2>
+            <a href="" class="bordered-button find"><p>Find a Vulcan install</p></a>
         </section>
 
         <section class="contact">
-            <h2>Ready to spec Vulcan for your project?</h2>
+            <h2 class="heading-1">Ready to spec Vulcan for your project?</h2>
             <a href="" class="bordered-button"><p>Contact Us</p></a>
             <!-- vulcan logo very bottom center of the page -->
         </section>
    </main>
    <footer>
-        <img src="images/wave-blue-light.png" alt="">
+        <img class="wave wave-lightblue" src="images/wave-blue-light.png" alt="">
         <img src="images/logo-white-vulcan.svg" alt="Vulcan logo" class="logo">
         <!-- N: flex style on social-contact ? -->
         <div class="social-contact">

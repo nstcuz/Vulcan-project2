@@ -3,6 +3,25 @@ body {
   color: rgb(255, 255, 255);
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Roboto Condensed";
+  text-transform: uppercase;
+}
+
+h1,
+h2.heading-1 {
+  font-size: 1.875rem;
+}
+
+h2.sign-up {
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-transform: none;
+  color: rgb(21, 74, 102);
+}
+
 nav > ul {
   font-family: "Roboto Condensed";
 }
@@ -19,6 +38,7 @@ a.view {
   font-weight: 500;
 }
 
+h2.find,
 a.find {
   color: rgb(80, 80, 80);
 }

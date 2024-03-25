@@ -71,7 +71,7 @@
         </section>
         
         <section class="treatment">
-            <img src="images/wave-white.png" alt=""> <!-- NN: images that are purely decorative do not require alt tags as they don't add info to the page contents-->
+            <img class="wave wave-white" src="images/wave-white.png" alt=""> <!-- NN: images that are purely decorative do not require alt tags as they don't add info to the page contents-->
             <h2>Customized Per Order</h2>  <!-- text transform uppercase, text center alligned, -->
             <p>Just as no two treatment plants are the same, no two of our screening, grit handling or sludge thickening products are either. We'll help determine exactly what you need.</p>
             <!-- below this are 4 images with their respective titles i think it would be best to use a display: grid; 2 column -->
@@ -95,7 +95,7 @@
         </section>
 
         <section class="advisor">
-            <img src="images/wave-blue-dark.png" alt="">
+            <img class="wave wave-darkblue" src="images/wave-blue-dark.png" alt="">
             <h2>Product Advisor</h2>
             <p>Find your project's perfect fit.</p>
         <!-- there is a random border bottom here .125rem solid white [NN TOUCHED UP] -->
@@ -146,7 +146,7 @@
             <h2>Stay in the know. Sign up for our newsletter</h2>
             <!-- im not sure if this is semantically a form.... or if it is just an input && input type='submit' [NN ADDED]-->
             <form>
-                <input type="email" id="email" name="email" value="Enter your email">
+                <input type="email" id="email" name="email" value="Enter your email" autocomplete="email">
                 <input type="submit" value="Submit">
             </form>
         </section>
@@ -164,7 +164,7 @@
         </section>
    </main>
    <footer>
-        <img src="images/wave-blue-light.png" alt="">
+        <img class="wave wave-lightblue" src="images/wave-blue-light.png" alt="">
         <img src="images/logo-white-vulcan.svg" alt="Vulcan logo" class="logo">
         <!-- N: flex style on social-contact ? -->
         <div class="social-contact">

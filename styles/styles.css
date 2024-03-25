@@ -15,6 +15,31 @@ h2.heading-1 {
   font-size: 1.875rem;
 }
 
+.treatment h2,
+.treatment h3 {
+  color: rgb(85, 85, 85);
+}
+
+.treatment h2,
+.treatment p {
+  text-align: center;
+}
+
+.treatment h2 {
+  margin: 5.5rem auto 0rem;
+  width: 8rem;
+}
+
+.treatment h3 {
+  width: 6.25rem;
+}
+
+.treatment p {
+  margin: 1rem 2.25rem;
+  font-size: 0.875rem;
+  color: black;
+}
+
 h2.sign-up {
   font-weight: 400;
   font-size: 1.25rem;
@@ -172,14 +197,32 @@ section {
   left: -4.25rem;
 }
 
-.wave-white {
-  z-index: 100;
-}
-
 .wave-lightblue {
   width: 51.25rem;
   height: 9rem;
   left: -8.125rem;
+}
+
+.treatment {
+  display: flex;
+  flex-direction: column;
+}
+
+.treatment div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.treatment div:not(:last-child) {
+  margin: 0 0.625rem;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.treatment img {
+  margin: 0.625rem;
+  height: 10.125rem;
 }
 
 .bordered-button p {

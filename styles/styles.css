@@ -155,32 +155,38 @@ nav ul li:hover {
 
 .hero-carousel {
   position: relative;
-  height: 50vh;
-  text-align: center;
+}
+
+.slideshow-container {
+  width: 100%;
+}
+
+#slide img {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 39rem;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  z-index: -10;
 }
 
 h1 {
   position: relative;
-  top: 7.25rem;
+  top: 8rem;
 }
 
-.bordered-button {
+.hero-carousel .bordered-button {
   position: relative;
-  top: 12rem;
+  top: 12.5rem;
   display: block;
   margin-bottom: 3rem;
 }
 
-#heroImage {
-  position: relative;
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 325%;
-  z-index: -10;
-}
-
 .dots-container {
+  z-index: 10;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,12 +194,16 @@ h1 {
 
 .dot {
   position: relative;
-  top: 13.5rem;
-  background-color: white;
-  width: 12px;
-  height: 12px;
+  top: 15rem;
+  background-color: rgb(255, 255, 255);
+  width: 10px;
+  height: 10px;
   margin-right: 6px;
   border-radius: 64px;
+}
+
+.dot:nth-child(1) {
+  background-color: #429bd6;
 }
 
 * {

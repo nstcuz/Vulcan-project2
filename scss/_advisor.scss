@@ -1,0 +1,14 @@
+@use 'vars' as *;
+@use 'mixins' as *;
+
+.advisor {
+    margin: .625rem;
+}
+
+.advisor p {
+    border-bottom: $border-bottom2;
+}
+
+.advisor form label {
+    display: block;
+}

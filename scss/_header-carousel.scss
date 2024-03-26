@@ -2,18 +2,17 @@
 @use 'mixins' as *;
 
 .hero-carousel {
-    height: 100vh;
+    position: relative;
+    height: 50vh;
     text-align: center;
 }
 
 .slideshow-container {
-
-
 }
 
 .slide {
-    border: solid 3px blue;
 
+    // border: solid 3px blue;
 }
 
 h1 {
@@ -29,11 +28,28 @@ h1 {
 }
 
 #heroImage {
-    position: absolute;
-    top: 31.84%;
+    position: relative;
+    top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
-    // height: 100%;
     width: 325%;
     z-index: -10;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    position: relative;
+    top: 13.5rem;
+
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+
+    border-radius: 64px;
 }

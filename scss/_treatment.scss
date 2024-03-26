@@ -1,25 +1,29 @@
 @use 'vars' as *;
 @use 'mixins' as *;
 
-// .treatment h2,
-// .treatment p {
-//     position: absolute;
-//     z-index: 300;
-// }
 
 .treatment {
+    position: relative;
+    top: 16rem;
     display: flex;
     flex-direction: column;
 }
 
+.treatment h2,
 .treatment div {
+    background-color: $white;
+    z-index: 100;
+}
+
+.treatment .machine {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: $white;
 }
 
-.treatment div:not(:last-child) {
+.treatment .machine:not(:last-child) {
     margin: 0 .625rem;
     border-bottom: $border-bottom1;
 }

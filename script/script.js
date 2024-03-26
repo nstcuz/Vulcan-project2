@@ -36,7 +36,6 @@ function changePicture(){
     heroImage.src = heroArr[currentIn].src;
     heroImage.alt = imageAlts[currentIn];
     updateDotColor(currentIn);
-    console.log(dots[currentIn])
 };
 
 // next img in array
@@ -51,7 +50,6 @@ function nextImage(){
 function changeImageCallBack(){
     changePicture();
     nextImage();
-    console.log(heroImage.src)
 }
 
 function updateDotColor(i){

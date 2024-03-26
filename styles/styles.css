@@ -200,6 +200,7 @@ h1 {
   height: 10px;
   margin-right: 6px;
   border-radius: 64px;
+  cursor: pointer;
 }
 
 .dot:nth-child(1) {

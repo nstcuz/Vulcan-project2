@@ -3,7 +3,7 @@
 
 body {
     font-family: $font;
-    color:$font-text-color1;
+    color:$text-white;
 }
 
 h1,
@@ -20,7 +20,7 @@ h2.heading-1 {
 
 .treatment h2,
 .treatment h3 {
-    color: $font-header-color2;
+    color: $text-lgtgrey;
 }
 
 .treatment h2,
@@ -62,7 +62,7 @@ h2.sign-up {
     font-weight: 400;
     font-size: $font-size-header3;
     text-transform: none;
-    color: $font-header-color3;
+    color: $text-blue;
 }
 
 nav > ul {
@@ -74,7 +74,7 @@ a.bordered-button {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
-    color: $font-text-color1;
+    color: $text-white;
 }
 
 a.view {
@@ -83,5 +83,5 @@ a.view {
 
 h2.find,
 a.find {
-    color: $font-text-color3;
+    color: $text-drkgrey;
 }

@@ -204,6 +204,7 @@ h1 {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -278,6 +279,33 @@ section {
 
 .find p {
   border: 1px solid rgb(80, 80, 80);
+}
+
+footer {
+  background-color: rgb(21, 74, 102);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.social-contact {
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 30px;
+  margin-right: 0.625rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

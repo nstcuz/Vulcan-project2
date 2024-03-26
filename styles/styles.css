@@ -285,15 +285,17 @@ section {
 }
 
 .advisor {
+  top: 20.5rem;
   height: 42rem;
   background-color: rgb(21, 74, 102);
+  z-index: 150;
 }
 
 .advisor h2,
 .advisor p {
   width: 100%;
   position: absolute;
-  z-index: 100;
+  z-index: 110;
 }
 
 .advisor h2 {
@@ -327,6 +329,7 @@ section {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  color: rgb(100, 100, 100);
   background-color: rgb(187, 187, 187);
   /*solid arrow parts from codepen, credit below*/
   background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%);
@@ -341,7 +344,6 @@ section {
 }
 
 .advisor form select:focus {
-  margin: 0.625rem;
   border: none;
   padding: 0.625rem 0.5rem;
   width: 100%;

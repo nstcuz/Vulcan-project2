@@ -2,16 +2,17 @@
 @use 'mixins' as *;
 
 .advisor {
-    // margin: .625rem;
+    top: 20.5rem;
     height: 42rem;
     background-color: $dark-blue;
+    z-index: 150;
 }
 
 .advisor h2,
 .advisor p {
     width: 100%;
     position: absolute;
-    z-index: 100;
+    z-index: 110;
 }
 
 .advisor h2 {
@@ -46,7 +47,8 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background-color: rgb(187,187,187);
+    color: $text-select;
+    background-color: $select-bg;
     /*solid arrow parts from codepen, credit below*/
     background-image:
         linear-gradient(45deg, transparent 50%, gray 50%),
@@ -66,7 +68,6 @@
 }
 
 .advisor form select:focus {
-    margin: .625rem;
     border: none;
     padding: .625rem .5rem;
     width: 100%;

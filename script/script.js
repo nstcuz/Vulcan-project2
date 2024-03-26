@@ -83,12 +83,6 @@ function updateImageSrcWithDot(num) {
     });
 }
 
-
-
-
-
-
-
 //hamburger menu stuff ====================================start
 const menuButton = document.getElementById('menu-button');
 const menuNav = document.getElementById('menu-nav');

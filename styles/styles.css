@@ -289,7 +289,7 @@ section {
   top: 20.5rem;
   height: 42rem;
   background-color: rgb(21, 74, 102);
-  z-index: 150;
+  z-index: -150;
 }
 
 .advisor h2,
@@ -364,6 +364,17 @@ section {
 .advisor form input {
   margin: 3.75rem;
   width: 100%;
+}
+
+.video-container {
+  margin: 9rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  border: 8px solid rgb(21, 74, 102);
 }
 
 .bordered-button p {

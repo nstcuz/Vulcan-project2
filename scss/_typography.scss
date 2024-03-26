@@ -5,12 +5,12 @@ body {
     font-family: $font;
     color:$text-white;
 }
-
 h1,
-h2,
+h2:not(.sign-up),
 h3 {
     font-family: $font-condensed;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h1,

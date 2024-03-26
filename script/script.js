@@ -52,7 +52,7 @@ function changeImageCallBack(){
     nextImage();
 }
 
-function updateDotColor(i){
+function updateDotColor(){
     dots[currentIn].style.backgroundColor = '#429bd6';
     if(currentIn >= 1){
         dots[currentIn - 1].style.backgroundColor = 'white';

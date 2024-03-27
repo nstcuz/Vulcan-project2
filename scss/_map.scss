@@ -1,0 +1,34 @@
+.installation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -1rem;
+
+    .flex-container {
+        position: absolute;
+        margin: auto 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 120px;
+    }
+
+    img {
+        position: relative;
+        height: 20rem;
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+        z-index: -10;
+    }
+
+    h2 {
+        position: relative;
+        top: 4px;
+        // margin: 1 auto;
+
+        span {
+            display: block;
+        }
+    }
+}

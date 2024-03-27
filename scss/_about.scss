@@ -3,11 +3,12 @@
 
 .about-us {
     top: 20rem;
+    height: 36rem;
 }
 
 .about-us h2,
 .about-us p,
-.about-us .bordered-button,
+.about-us .bordered-button p,
 .about-us img {
     position: absolute;
 }
@@ -20,8 +21,11 @@
     margin: 18.5rem 4rem 3.75rem;
 }
 
-.about-us .bordered-button {
+.about-us .bordered-button p {
     margin: 10rem auto 0;
+    top: 17.375rem;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .about-us img {

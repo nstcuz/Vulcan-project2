@@ -1,4 +1,10 @@
 @use 'vars' as *;
+
+.video-section {
+    // top: 20rem;
+    height: 420px;
+}
+
 .video-container {
     margin: 0 auto;
     display: flex;

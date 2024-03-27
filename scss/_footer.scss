@@ -2,15 +2,15 @@
 @use 'mixins' as *;
 
 footer {
+    position: relative;
     color: $white; 
     padding: 20px; 
     text-align: center;
 }
 
-footer p {
-    font-size: 14px;
-    font-family: "Roboto Condensed", sans-serif;
-    margin-bottom: 0; 
+.floating-content {
+    position: relative;
+    z-index: 100;
 }
 
 .footer-content {
@@ -54,5 +54,3 @@ footer p {
 .social-contact p {
     margin: 0 10px;
 }
-
-

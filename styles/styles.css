@@ -289,7 +289,7 @@ section {
   top: 20.5rem;
   height: 42rem;
   background-color: rgb(21, 74, 102);
-  z-index: -150;
+  z-index: 150;
 }
 
 .advisor h2,
@@ -367,14 +367,15 @@ section {
 }
 
 .video-container {
-  margin: 9rem auto;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 iframe {
-  border: 8px solid rgb(21, 74, 102);
+  border: 15px solid rgb(21, 74, 102);
+  background-color: #367d22;
 }
 
 .bordered-button p {

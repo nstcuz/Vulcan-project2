@@ -1,6 +1,6 @@
 @use 'vars' as *;
 .video-container {
-    margin: 9rem auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,5 +8,6 @@
 }
 
 iframe {
-    border: 8px solid $dark-blue;
+    border: 15px solid $dark-blue;
+    background-color: #367d22;
 }

@@ -9,13 +9,11 @@ $font-size-body1: 1rem;
 $font-size-body2: .875rem;
 $font-size-select: .9375rem;
 
-$font-header-color1: rgb(255,255,255);
-$font-header-color2: rgb(85,85,85);
-$font-header-color3: rgb(21,74,102);
-$font-header-color4: rgb(80,80,80);
-$font-text-color1: rgb(255,255,255);
-$font-text-color2:  rgb(85,85,85);
-$font-text-color3: rgb(80,80,80);
+$text-blue: rgb(21,74,102);
+$text-white: rgb(255,255,255);
+$text-select: rgb(100,100,100);
+$text-drkgrey:  rgb(85,85,85);
+$text-lgtgrey: rgb(80,80,80);
 
 // colors
 $white: rgb(255,255,255);
@@ -24,6 +22,7 @@ $light-blue: rgb(1,157,220);
 $grey: rgb(85,85,85);
 $grey-dark: rgb(80,80,80);
 $newsletter-bg: rgb(190,220,239);
+$select-bg: rgb(187,187,187);
 
 //borders
 $border-box1: 1px solid rgb(255,255,255);

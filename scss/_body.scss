@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,7 +21,6 @@ section {
 
 .wave {
     position: absolute;
-    z-index: -100;
 }
 
 .wave-white,
@@ -30,12 +30,19 @@ section {
     left: -4.25rem;
 }
 
-// .wave-white {
-//     z-index: 100;
-// }
+.wave-white {
+    z-index: 50;
+}
+
+.wave-darkblue {
+    position: absolute;
+    top: -4.5rem;
+    z-index: 50;
+}
 
 .wave-lightblue {
     width: 51.25rem;
     height: 9rem;
     left: -8.125rem;
+    z-index: -100;
 }

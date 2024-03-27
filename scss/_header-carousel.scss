@@ -2,38 +2,60 @@
 @use 'mixins' as *;
 
 .hero-carousel {
-    height: 100vh;
-    text-align: center;
+    position: relative;
+    // height: 600px;
 }
 
 .slideshow-container {
-
-
+   width: 100%; 
 }
 
-.slide {
-    border: solid 3px blue;
-
+#slide {
+    img {
+        position: absolute;
+        top: 0%;
+        width: 100%;
+        height: 39rem;
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+        z-index: -10;
+    }
 }
 
 h1 {
     position: relative;
-    top: 7.25rem;
+    top: 8rem;
 }
 
-.bordered-button {
+.hero-carousel{
+    .bordered-button {
+        position: relative;
+        top: 12.5rem;
+        display: block;
+        margin-bottom: 3rem;
+    }
+}
+
+.dots-container {
+    z-index: 10;
     position: relative;
-    top: 12rem;
-    display: block;
-    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#heroImage {
-    position: absolute;
-    top: 31.84%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    // height: 100%;
-    width: 325%;
-    z-index: -10;
+.dot {
+    position: relative;
+    top: 15rem;
+    background-color: $white;
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+    border-radius: 64px;
+    cursor: pointer;
+}
+
+.dot:nth-child(1) {
+    background-color: #429bd6;
 }

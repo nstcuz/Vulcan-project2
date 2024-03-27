@@ -56,6 +56,11 @@
                 <h1>We design and fabricate indestructable wastewater screens. Enough said.</h1>
                 <a href="" class="bordered-button"><p>View Products</p></a>
                 <a href="" class="bordered-button"><p>View Services</p></a>
+                <div class="dots-container">
+                    <span class="dot" onclick="updateImageSrcWithDot(1)"></span>
+                    <span class="dot" onclick="updateImageSrcWithDot(2)"></span>
+                    <span class="dot" onclick="updateImageSrcWithDot(3)"></span>
+                </div>
                 <div id="slide">
                     <img id="heroImage" src="images/header-slider-img-01.jpg" alt="Photo of Vulcan factory from the outside with blue-coloured filter">
                     <!-- N: below images/alts are saved for future JS, will be removed later-->
@@ -63,34 +68,32 @@
                     <!-- <img src="images/header-slider-img-03.jpg" alt="Photo of two Vulcan employees using tools and working together"> -->
                 </div>
             </div>
-            <div>
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
+
         </section>
         
         <section class="treatment">
             <img class="wave wave-white" src="images/wave-white.png" alt=""> <!-- NN: images that are purely decorative do not require alt tags as they don't add info to the page contents-->
             <h2>Customized Per Order</h2>  <!-- text transform uppercase, text center alligned, -->
+            <div>
             <p>Just as no two treatment plants are the same, no two of our screening, grit handling or sludge thickening products are either. We'll help determine exactly what you need.</p>
             <!-- below this are 4 images with their respective titles i think it would be best to use a display: grid; 2 column -->
             <!-- NN: because there are lines inbetween the different images and titles, I think its best if grid was 1col, 4rows -->
-            <div class="machine">
-                <img src="images/machine-01-300x274.png" alt="Screening machine">
-                <h3>Screening</h3> <!-- NN: not sure to give these headings or specially-classed <p> tags -->
-            </div>
-            <div class="machine">
-                <img src="images/machine-02-300x274.png" alt="Screening handling machine">
-                <h3>Screening Handling</h3>
-            </div>
-            <div class="machine">
-                <img src="images/machine-03-300x274.png" alt="Grit handling machine">
-                <h3>Grit Handling</h3>
-            </div>
-            <div class="machine">
-                <img src="images/machine-04-300x274.png" alt="Sludge thickening machine">
-                <h3>Sludge Thickening</h3>
+                <div class="machine">
+                    <img src="images/machine-01-300x274.png" alt="Screening machine">
+                    <h3>Screening</h3> <!-- NN: not sure to give these headings or specially-classed <p> tags -->
+                </div>
+                <div class="machine">
+                    <img src="images/machine-02-300x274.png" alt="Screening handling machine">
+                    <h3>Screening Handling</h3>
+                </div>
+                <div class="machine">
+                    <img src="images/machine-03-300x274.png" alt="Grit handling machine">
+                    <h3>Grit Handling</h3>
+                </div>
+                <div class="machine">
+                    <img src="images/machine-04-300x274.png" alt="Sludge thickening machine">
+                    <h3>Sludge Thickening</h3>
+                </div>
             </div>
         </section>
 

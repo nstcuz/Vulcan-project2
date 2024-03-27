@@ -1,10 +1,14 @@
 // hero carousel
-//target container
+//target image
 const heroImage = document.getElementById('heroImage');
+//array of alts for each image
+const imageAlts = ['Photo of Vulcan factory from the outside with blue-coloured filter',
+                   'Photo of a Vulcan employee who is actively welding',
+                   'Photo of two Vulcan employees using tools and working together'
+];
 
-// target buttons
-const dots = document.querySelectorAll('.dot')
-
+// dots 
+const dots = document.querySelectorAll('.dot');
 //index
 let currentIn = 0;
 
@@ -18,21 +22,20 @@ function createImages(arrLength, img) {
     for(let i = 1; i <= arrLength; i++){
         // create img object
         const image = new Image();
-        // console.log(Image);
         // supply image source
-        image.src = `${img}${i}.jpg`
-        // console.log(image.src);
+        image.src = `${img}${i}.jpg`;
+        image.alt = imageAlts[i - 1];
         // push into img array
         arr.push(image);
     };
     return arr;
 };
 
-
-// function which updates the picture src
+// function which updates the picture src and alt
 function changePicture(){
     heroImage.src = heroArr[currentIn].src;
-    // console.log(heroArr[currentIn].src)
+    heroImage.alt = imageAlts[currentIn];
+    updateDotColor(currentIn);
 };
 
 // next img in array
@@ -43,12 +46,42 @@ function nextImage(){
     }
 }
 
-// switch image every 4 seconds
-setInterval(() => {
+// function to execute image change for interval timer
+function changeImageCallBack(){
     changePicture();
     nextImage();
-}, 4000);
+}
 
+function updateDotColor(){
+    dots[currentIn].style.backgroundColor = '#429bd6';
+    if(currentIn >= 1){
+        dots[currentIn - 1].style.backgroundColor = 'white';
+    } else if (currentIn === 0){
+        dots[2].style.backgroundColor = 'white';
+    }
+}
+
+// change image on 4 second timer
+const changeImageInterval = setInterval(changeImageCallBack, 4000);
+
+// cancel image interval when dot container is clicked
+dots.forEach((dot) => 
+    dot.addEventListener('click', () => {
+        clearInterval(changeImageInterval);
+    })
+);
+
+function updateImageSrcWithDot(num) {
+    addEventListener('click', () => {
+        const dot = document.querySelectorAll('.dot');
+        heroImage.src = `images/header-slider-img-0${num}.jpg`;
+        heroImage.alt = imageAlts[num - 1];
+        for (let i = 0; i < dot.length; i++) {
+            dot[i].style.backgroundColor = 'white';
+        }
+        dot[num - 1].style.backgroundColor = '#429bd6';
+    });
+}
 
 //hamburger menu stuff ====================================start
 const menuButton = document.getElementById('menu-button');

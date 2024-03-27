@@ -1,0 +1,101 @@
+@use 'vars' as *;
+@use 'mixins' as *;
+
+.advisor {
+    top: 20.5rem;
+    height: 45.5rem;
+    background-color: $dark-blue;
+    z-index: 150;
+}
+
+.advisor h2,
+.advisor p {
+    width: 100%;
+    position: absolute;
+    z-index: 110;
+}
+
+.advisor h2 {
+    margin: 1.5rem auto;
+}
+
+.advisor p {
+    margin: 4rem auto 0;
+}
+
+.advisor form {
+    margin: .625rem;
+    position: relative;
+    top: 6.5rem;
+}
+
+.advisor label:first-child {
+    border-top: $border-bottom2;
+    padding-top: 1.375rem;
+}
+
+.advisor label {
+    margin: 1.375rem 0 .5rem;
+    display: block;
+}
+
+.advisor select {
+    border: none;
+    padding: .75rem .625rem .8125rem;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: $select-bg;
+    /*solid arrow parts from codepen, with tweaking, credit below*/
+    background-image:
+        linear-gradient(45deg, transparent 50%, rgb(124,128,128) 50%),
+        linear-gradient(135deg, rgb(124,128,128) 50%, transparent 50%);
+    background-position:
+        calc(100% - 25px) calc(1em + 2px),
+        calc(100% - 18px) calc(1em + 2px);
+    background-size:
+        8px 7px,
+        7px 8px;
+    background-repeat: no-repeat;
+}
+
+.advisor select:focus,
+.advisor select:hover {
+    background-color: rgb(238,238,238);
+}
+
+.advisor select:hover {
+    border: none;
+    padding: .625rem .625rem .9375rem;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /*solid arrow parts from codepen, with tweaking, credit below*/
+    background-image:
+        linear-gradient(45deg, rgb(124,128,128) 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, rgb(124,128,128) 50%);
+    background-position:
+        calc(100% - 18px) 1em,
+        calc(100% - 25px) 1em;
+    background-size:
+        8px 8px,
+        7px 8px;
+    background-repeat: no-repeat;
+    outline: 0;
+}
+/*select arrow from https://codepen.io/vkjgr/pen/VYMeXp*/
+
+.advisor input,
+.advisor input[type="submit"] {
+    cursor: pointer;
+}
+
+.advisor input[type="submit"] {
+    margin: 3.625rem 0;
+    border: none;
+    padding: .75rem;
+    width: 100%;
+    background-color: $light-blue;
+}

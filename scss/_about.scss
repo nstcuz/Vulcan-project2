@@ -2,30 +2,41 @@
 @use 'mixins' as *;
 
 .about-us {
-    top: 20rem;
-    height: 36rem;
+    top: -1rem;
+    height: 36.25rem;
+}
+
+.about-us img{
+    position: absolute;
 }
 
 .about-us h2,
 .about-us p,
-.about-us .bordered-button p,
-.about-us img {
-    position: absolute;
+.about-us .bordered-button p{
+    position: relative;
 }
 
 .about-us h2 {
-    margin: 10rem auto 2rem;
+    top: 9.5rem;
 }
 
 .about-us p:not(.bordered-button p) {
-    margin: 18.5rem 4rem 3.75rem;
+    // margin: 18.5rem 4rem 3.75rem;
+    top: 11.5rem;
+    width: 250px;
+    margin: 0 auto;
 }
 
 .about-us .bordered-button p {
-    margin: 10rem auto 0;
-    top: 17.375rem;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 15rem;
+    display: block;
+    margin: 0 auto;
+    padding: 0.75rem;
+    width: 125px;
+    // margin: 10rem auto 0;
+    // top: 17.375rem;
+    // left: 50%;
+    // transform: translateX(-50%);
 }
 
 .about-us img {

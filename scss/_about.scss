@@ -1,0 +1,17 @@
+@use 'vars' as *;
+@use 'mixins' as *;
+
+.about-us {
+    top: 20rem;
+}
+
+.about-us img {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 39rem;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    z-index: -10;
+}

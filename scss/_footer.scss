@@ -11,7 +11,7 @@ p {
     font-size: 14px;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
-    margin-bottom: 0; /* Remove default bottom margin */
+    margin-bottom: 0; 
 }
 
 .footer-content {
@@ -30,7 +30,7 @@ p {
     justify-content: center;
     align-items: center; 
     flex-wrap: wrap; 
-    margin-bottom: 10px; /* Add margin to separate from the copyright line */
+    margin-bottom: 10px; 
 }
 
 .icon {
@@ -38,6 +38,22 @@ p {
     margin-right: 13px;
 }
 
+.icon-mail-alt {
+    color: $light-blue;
+    background-color: $white;
+    padding: .375rem;
+    border-radius: 64px;
+    max-width: 16px;
+    height: auto;
+}
+ 
+    i[class^="icon-"]:before, i[class*=" icon-"]:before {
+        margin: 0;
+      }
+
+
 .social-contact p {
     margin: 0 10px;
 }
+
+

@@ -76,6 +76,11 @@ h2.heading-1 {
   color: rgb(255, 255, 255);
 }
 
+.about-us p:not(.bordered-button p) {
+  font-size: 0.875rem;
+  text-align: center;
+}
+
 h2.sign-up {
   font-weight: 400;
   font-size: 1.25rem;
@@ -390,6 +395,39 @@ section {
   padding: 0.75rem;
   width: 100%;
   background-color: rgb(1, 157, 220);
+}
+
+.about-us {
+  top: 20rem;
+}
+
+.about-us h2,
+.about-us p,
+.about-us .bordered-button,
+.about-us img {
+  position: absolute;
+}
+
+.about-us h2 {
+  margin: 10rem auto 2rem;
+}
+
+.about-us p:not(.bordered-button p) {
+  margin: 18.5rem 4rem 3.75rem;
+}
+
+.about-us .bordered-button {
+  margin: 10rem auto 0;
+}
+
+.about-us img {
+  top: 0;
+  width: 100%;
+  height: 36rem;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  z-index: -10;
 }
 
 .bordered-button p {

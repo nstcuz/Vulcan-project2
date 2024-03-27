@@ -1,0 +1,459 @@
+body {
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+}
+
+h1,
+h2:not(.sign-up),
+h3 {
+  font-family: "Roboto Condensed";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1,
+h2.heading-1 {
+  font-size: 1.875rem;
+}
+
+.treatment h2,
+.treatment h3 {
+  color: rgb(80, 80, 80);
+}
+
+.treatment h2,
+.treatment p {
+  text-align: center;
+}
+
+.treatment h2 {
+  margin: 5.5rem auto 0rem;
+  width: 8rem;
+}
+
+.treatment h3 {
+  width: 6.25rem;
+}
+
+.treatment p {
+  margin: 1rem 2.25rem;
+  font-size: 0.875rem;
+  color: black;
+}
+
+.advisor h2,
+.advisor p {
+  text-align: center;
+}
+
+.advisor p {
+  font-size: 0.875rem;
+}
+
+.advisor label,
+.advisor select {
+  font-size: 0.9375rem;
+}
+
+.advisor label {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+}
+
+.advisor select,
+.advisor input[type=submit] {
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.advisor select {
+  color: rgb(100, 100, 100);
+}
+
+.advisor input[type=submit] {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+h2.sign-up {
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-transform: none;
+  color: rgb(21, 74, 102);
+}
+
+nav > ul {
+  font-family: "Roboto Condensed";
+}
+
+a.bordered-button {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+a.view {
+  font-weight: 500;
+}
+
+h2.find,
+a.find {
+  color: rgb(85, 85, 85);
+}
+
+header {
+  padding: 0 0.5rem;
+  background-color: rgba(50, 50, 50, 0.7);
+  width: 100%;
+  height: 3.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav {
+  background-color: rgba(50, 50, 50, 0.7);
+  width: 100%;
+  position: fixed;
+  top: 3.75rem;
+  left: 0;
+}
+
+nav > ul {
+  margin: 0;
+  padding-inline-start: 0;
+  display: none;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  padding: 0.25rem 0.875rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+nav ul li:hover {
+  background-color: rgb(1, 157, 220);
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  fill: rgb(255, 255, 255);
+  display: block;
+  position: fixed;
+  right: 0.5rem;
+}
+
+.menu-button .line {
+  transition: transform 200ms ease-in, opacity 200ms ease-in;
+  transform-origin: center center;
+}
+
+.menu-button[aria-expanded=true] .ham-top {
+  transform: translate(15px, 21px) rotate(-45deg);
+}
+
+.menu-button[aria-expanded=true] .ham-middle {
+  opacity: 0;
+}
+
+.menu-button[aria-expanded=true] .ham-bottom {
+  transform: translate(25px, -17px) rotate(45deg);
+}
+
+.hero-carousel {
+  position: relative;
+}
+
+.slideshow-container {
+  width: 100%;
+}
+
+#slide img {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 39rem;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  z-index: -10;
+}
+
+h1 {
+  position: relative;
+  top: 8rem;
+}
+
+.hero-carousel .bordered-button {
+  position: relative;
+  top: 12.5rem;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.dots-container {
+  z-index: 10;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  position: relative;
+  top: 15rem;
+  background-color: rgb(255, 255, 255);
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+  border-radius: 64px;
+  cursor: pointer;
+}
+
+.dot:nth-child(1) {
+  background-color: #429bd6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9cc567;
+}
+
+section {
+  position: relative;
+}
+
+.logo {
+  width: 6.25rem;
+}
+
+.wave {
+  position: absolute;
+}
+
+.wave-white,
+.wave-darkblue {
+  width: 46rem;
+  height: 9rem;
+  left: -4.25rem;
+}
+
+.wave-white {
+  z-index: 50;
+}
+
+.wave-darkblue {
+  position: absolute;
+  top: -4.5rem;
+  z-index: 50;
+}
+
+.wave-lightblue {
+  width: 51.25rem;
+  height: 9rem;
+  left: -8.125rem;
+  z-index: -100;
+}
+
+.treatment {
+  position: relative;
+  top: 16rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.treatment h2,
+.treatment div {
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
+}
+
+.treatment .machine {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.treatment .machine:not(:last-child) {
+  margin: 0 0.625rem;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.treatment img {
+  margin: 0.625rem;
+  height: 10.125rem;
+}
+
+.advisor {
+  top: 20.5rem;
+  height: 45.5rem;
+  background-color: rgb(21, 74, 102);
+  z-index: 150;
+}
+
+.advisor h2,
+.advisor p {
+  width: 100%;
+  position: absolute;
+  z-index: 110;
+}
+
+.advisor h2 {
+  margin: 1.5rem auto;
+}
+
+.advisor p {
+  margin: 4rem auto 0;
+}
+
+.advisor form {
+  margin: 0.625rem;
+  position: relative;
+  top: 6.5rem;
+}
+
+.advisor label:first-child {
+  border-top: 1px solid rgb(238, 238, 238);
+  padding-top: 1.375rem;
+}
+
+.advisor label {
+  margin: 1.375rem 0 0.5rem;
+  display: block;
+}
+
+.advisor select {
+  border: none;
+  padding: 0.75rem 0.625rem 0.8125rem;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: rgb(187, 187, 187);
+  /*solid arrow parts from codepen, with tweaking, credit below*/
+  background-image: linear-gradient(45deg, transparent 50%, rgb(124, 128, 128) 50%), linear-gradient(135deg, rgb(124, 128, 128) 50%, transparent 50%);
+  background-position: calc(100% - 25px) calc(1em + 2px), calc(100% - 18px) calc(1em + 2px);
+  background-size: 8px 7px, 7px 8px;
+  background-repeat: no-repeat;
+}
+
+.advisor select:focus,
+.advisor select:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.advisor select:hover {
+  border: none;
+  padding: 0.625rem 0.625rem 0.9375rem;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /*solid arrow parts from codepen, with tweaking, credit below*/
+  background-image: linear-gradient(45deg, rgb(124, 128, 128) 50%, transparent 50%), linear-gradient(135deg, transparent 50%, rgb(124, 128, 128) 50%);
+  background-position: calc(100% - 18px) 1em, calc(100% - 25px) 1em;
+  background-size: 8px 8px, 7px 8px;
+  background-repeat: no-repeat;
+  outline: 0;
+}
+
+/*select arrow from https://codepen.io/vkjgr/pen/VYMeXp*/
+.advisor input,
+.advisor input[type=submit] {
+  cursor: pointer;
+}
+
+.advisor input[type=submit] {
+  margin: 3.625rem 0;
+  border: none;
+  padding: 0.75rem;
+  width: 100%;
+  background-color: rgb(1, 157, 220);
+}
+
+.bordered-button p {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 0.875rem 0.625rem;
+  display: inline;
+}
+
+.find p {
+  border: 1px solid rgb(80, 80, 80);
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.social-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 30px;
+  margin-right: 13px;
+}
+
+.icon-mail-alt {
+  color: rgb(1, 157, 220);
+  background-color: rgb(255, 255, 255);
+  padding: 0.375rem;
+  border-radius: 64px;
+  max-width: 16px;
+  height: auto;
+}
+
+i[class^=icon-]:before, i[class*=" icon-"]:before {
+  margin: 0;
+}
+
+.social-contact p {
+  margin: 0 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -92,9 +92,14 @@ h2.sign-up {
     color: $text-blue;
 }
 
+.newsletter input[type="email"] {
+    font-family: $font;
+    font-size: $font-size-body3;
+}
+
 .newsletter input[type="submit"] {
     font-family: $font;
-    font-size: $font-size-body2;
+    font-size: $font-size-body1;
     font-weight: 700;
     text-transform: uppercase;
     color: $white;

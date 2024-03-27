@@ -2,17 +2,23 @@
 @use 'mixins' as *;
 
 .newsletter {
+    height: 7.5rem;
     background-color: $newsletter-bg;
 }
 
+.newsletter h2,
+.newsletter form {
+    position: absolute;
+}
+
 .newsletter h2 {
-    margin: .625rem;
+    margin: 1.375rem .625rem 1.125rem;
 }
 
 .newsletter form {
-    margin: .625rem;
-    display: block;
+    padding: 0 .625rem .625rem;
     width: 100%;
+    bottom: 0;
 }
 
 .newsletter input[type="email"],

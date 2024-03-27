@@ -7,10 +7,15 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+footer p {
     font-family: $font-condensed;
     text-transform: uppercase;
     text-align: center;
+}
+
+footer p {
+    font-size: $font-size-body2;
 }
 
 h1,
@@ -125,4 +130,12 @@ a.view {
 h2.find,
 a.find {
     color: $text-drkgrey;
+}
+
+.contact h2 {
+    width: 16.5rem;
+}
+
+.own-line {
+    display: block;
 }

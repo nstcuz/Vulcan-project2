@@ -21,6 +21,7 @@ section {
 
 .wave {
     position: absolute;
+    z-index: 50;
 }
 
 .wave-white,
@@ -30,19 +31,21 @@ section {
     left: -4.25rem;
 }
 
-.wave-white {
-    z-index: 50;
-}
+// .wave-white {
+//     z-index: 50;
+// }
 
 .wave-darkblue {
-    position: absolute;
     top: -4.5rem;
-    z-index: 50;
+    background-color: $white;
+    // z-index: 50;
 }
 
 .wave-lightblue {
     width: 51.25rem;
     height: 9rem;
+    top: -4rem;
     left: -8.125rem;
-    z-index: -100;
+    background-color: $dark-blue;
+    // z-index: 50;
 }

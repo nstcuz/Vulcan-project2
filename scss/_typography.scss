@@ -85,8 +85,8 @@ h2.heading-1 {
 }
 
 h2.sign-up {
-    font-weight: 500;
     font-size: $font-size-header3;
+    font-weight: 500;
     text-transform: none;
     text-align: left;
     color: $text-blue;
@@ -95,6 +95,7 @@ h2.sign-up {
 .newsletter input[type="email"] {
     font-family: $font;
     font-size: $font-size-body3;
+    color: $text-select;
 }
 
 .newsletter input[type="submit"] {

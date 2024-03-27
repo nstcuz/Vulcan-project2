@@ -3,7 +3,7 @@
 
 .newsletter {
     top: -1rem;
-    height: 7.5rem;
+    height: 7.625rem;
     background-color: $newsletter-bg;
 }
 
@@ -17,21 +17,24 @@
 }
 
 .newsletter form {
-    padding: 0 .625rem .625rem;
-    width: 100%;
+    margin: 0 .625rem 1.5rem;
     bottom: 0;
+    // width: 100%; //this adds a weird gap under the mouse scroll
 }
 
 .newsletter input[type="email"],
 .newsletter input[type="submit"] {
     border: none;
+    vertical-align: middle;
 }
 
 .newsletter input[type="email"] {
-    padding: .875rem 1rem .875rem;
+    margin-right: .5rem; //there is a left gap between email's right margin and submit
+    padding: .625rem 1.25rem .65rem;
+    // width: 100%; //this stretches input and pushes submit down
 }
 
 .newsletter input[type="submit"] {
-    padding: .875rem 1rem;
+    padding: .5rem 1.125rem;
     background-color: $light-blue;
 }

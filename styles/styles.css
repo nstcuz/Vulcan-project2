@@ -403,10 +403,16 @@ section {
 }
 
 footer {
-  background-color: rgb(21, 74, 102);
   color: rgb(255, 255, 255);
   padding: 20px;
   text-align: center;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0; /* Remove default bottom margin */
 }
 
 .footer-content {
@@ -421,12 +427,20 @@ footer {
 }
 
 .social-contact {
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px; /* Add margin to separate from the copyright line */
 }
 
 .icon {
   width: 30px;
-  margin-right: 0.625rem;
+  margin-right: 13px;
+}
+
+.social-contact p {
+  margin: 0 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

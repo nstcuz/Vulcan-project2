@@ -6,7 +6,7 @@ body {
     color:$text-white;
 }
 h1,
-h2:not(.sign-up),
+h2,
 h3 {
     font-family: $font-condensed;
     text-transform: uppercase;
@@ -35,6 +35,7 @@ h2.heading-1 {
 
 .treatment h3 {
     width: 6.25rem;
+    text-align: left;
 }
 
 .treatment p {
@@ -84,10 +85,19 @@ h2.heading-1 {
 }
 
 h2.sign-up {
-    font-weight: 400;
+    font-weight: 500;
     font-size: $font-size-header3;
     text-transform: none;
+    text-align: left;
     color: $text-blue;
+}
+
+.newsletter input[type="submit"] {
+    font-family: $font;
+    font-size: $font-size-body2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $white;
 }
 
 nav > ul {

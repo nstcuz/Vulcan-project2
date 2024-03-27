@@ -1,0 +1,30 @@
+@use 'vars' as *;
+@use 'mixins' as *;
+
+.newsletter {
+    background-color: $newsletter-bg;
+}
+
+.newsletter h2 {
+    margin: .625rem;
+}
+
+.newsletter form {
+    margin: .625rem;
+    display: block;
+    width: 100%;
+}
+
+.newsletter input[type="email"],
+.newsletter input[type="submit"] {
+    border: none;
+}
+
+.newsletter input[type="email"] {
+    padding: .875rem 1rem .875rem;
+}
+
+.newsletter input[type="submit"] {
+    padding: .875rem 1rem;
+    background-color: $light-blue;
+}

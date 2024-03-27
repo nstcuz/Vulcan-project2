@@ -78,6 +78,11 @@ h2.heading-1 {
     color: $text-white;
 }
 
+.about-us p:not(.bordered-button p) {
+    font-size: $font-size-body2;
+    text-align: center;
+}
+
 h2.sign-up {
     font-weight: 400;
     font-size: $font-size-header3;

@@ -2,31 +2,31 @@
 @use 'mixins' as *;
 
 .advisor {
-    top: -1rem;
-    height: 45.5rem;
+    height: 46rem;
     background-color: $dark-blue;
-    z-index: 150;
 }
 
 .advisor h2,
 .advisor p {
     width: 100%;
-    position: absolute;
-    z-index: 110;
+    position: relative;
+    z-index: 100;
 }
 
 .advisor h2 {
-    margin: 1.5rem auto;
+    margin: 0 auto;
+    top: 2.125rem;
 }
 
 .advisor p {
-    margin: 4rem auto 0;
+    margin: 0 auto;
+    top: 2.75rem;
 }
 
 .advisor form {
     margin: .625rem;
     position: relative;
-    top: 6.5rem;
+    top: 3rem;
 }
 
 .advisor label:first-child {

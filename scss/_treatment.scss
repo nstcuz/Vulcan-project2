@@ -3,16 +3,26 @@
 
 
 .treatment {
-    position: relative;
+    height: 62rem;
     top: -5.25rem;
     display: flex;
     flex-direction: column;
 }
 
 .treatment h2,
-.treatment div {
-    background-color: $white;
+.treatment div,
+.treatment p {
+    position: relative;
+    // background-color: $white;
     z-index: 100;
+}
+
+.treatment h2 {
+    top: 7rem;
+}
+
+.treatment div {
+    top: 3.75rem;
 }
 
 .treatment .machine {
@@ -28,7 +38,11 @@
     border-bottom: $border-bottom1;
 }
 
-.treatment img {
+.treatment p {
+    top: 3.25rem;
+}
+
+.treatment img:not(.wave) {
     margin: .625rem;
     height: 10.125rem;
 }

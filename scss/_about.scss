@@ -2,7 +2,6 @@
 @use 'mixins' as *;
 
 .about-us {
-    top: -1rem;
     height: 36rem;
 }
 
@@ -17,26 +16,21 @@
 }
 
 .about-us h2 {
-    top: 9.5rem;
+    top: 9.75rem;
 }
 
 .about-us p:not(.bordered-button p) {
-    // margin: 18.5rem 4rem 3.75rem;
-    top: 11.5rem;
-    width: 250px;
+    top: 11rem;
+    width: 15.625rem;
     margin: 0 auto;
 }
 
 .about-us .bordered-button p {
-    top: 15rem;
+    top: 14.75rem;
     display: block;
     margin: 0 auto;
     padding: 0.75rem;
     width: 125px;
-    // margin: 10rem auto 0;
-    // top: 17.375rem;
-    // left: 50%;
-    // transform: translateX(-50%);
 }
 
 .about-us img {

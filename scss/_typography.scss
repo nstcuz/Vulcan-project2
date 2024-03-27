@@ -34,7 +34,7 @@ h2.heading-1 {
 }
 
 .treatment h2 {
-    margin: 5.5rem auto 0rem;
+    margin: 0 auto;
     width: 8rem;
 }
 
@@ -44,7 +44,7 @@ h2.heading-1 {
 }
 
 .treatment p {
-    margin: 1rem 2.25rem;
+    margin: .375rem 2.25rem;
     font-size: $font-size-body2;
     color: black; //will remove, the font colors need to get changed so not the whole body is affected by $font-text-color1
 }

@@ -1,19 +1,21 @@
 @use 'vars' as *;
 
 .video-section {
-    // top: 20rem;
-    height: 420px;
+    background-color: $light-blue;
+    top: -1.25rem;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .video-container {
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 
 }
 
 iframe {
-    border: 15px solid $dark-blue;
-    background-color: #367d22;
+    border: 14px solid $dark-blue;
+    background-color: $video-bg;
 }

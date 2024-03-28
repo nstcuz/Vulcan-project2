@@ -36,6 +36,7 @@ h2.heading-1 {
 .treatment h2 {
     margin: 0 auto;
     width: 8rem;
+    line-height: 1.1;
 }
 
 .treatment h3 {
@@ -71,11 +72,11 @@ h2.heading-1 {
 .advisor select,
 .advisor input[type="submit"] {
     font-family: $font;
-    font-weight: 500;
 }
 
 .advisor select {
     color: $text-select;
+    font-weight: 500;
 }
 
 .advisor input[type="submit"] {

@@ -7,8 +7,10 @@
     box-sizing: border-box;
 }
 
-section {
+section,
+footer {
     position: relative;
+    overflow: hidden;
 }
 
 .logo {
@@ -28,11 +30,11 @@ section {
 }
 
 .wave-white {
-    top: 1rem;
+    bottom: -5rem;
 }
 
 .wave-darkblue {
-    top: -4.5rem;
+    bottom: -4.5rem;
     background-color: $white;
     // z-index: 50;
 }
@@ -40,7 +42,8 @@ section {
 .wave-lightblue {
     width: 51.25rem;
     height: 9rem;
-    top: -4rem;
+    bottom: -4.875rem;
+    // top: -4rem;
     left: -8.125rem;
     background-color: $dark-blue;
     // z-index: 50;

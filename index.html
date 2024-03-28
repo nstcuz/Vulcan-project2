@@ -19,11 +19,11 @@
         <!-- we have the vulcan logo && hamburger menu [NN ADDED]-->
         <!-- the hamburger menu has a dropdown which covers 100% width and has 8 A links within [NN ADDED]-->
         <!-- it will be in a flexbox with justify-content: space-between -->
-        <a href=""><img src="images/logo-white-vulcan.svg" alt="Vulcan logo and home icon" class="logo"></a>
+        <a href="#"><img src="images/logo-white-vulcan.svg" alt="Vulcan logo and home icon" class="logo"></a>
         <button id="menu-button" class="menu-button" aria-label="Main Menu" aria-controls="primary-navigation" aria-expanded="false">
             <svg class="hamburger" viewBox="0 0 100 100" width="34">
                 <rect   class="line ham-top" 
-                        width="100" height="10" 
+                        width="100" height="10"
                         x="0" y="22" rx="0">
                     </rect>
                 <rect   class="line ham-middle" 
@@ -38,14 +38,14 @@
         </button>
         <nav id="nav-header" class="nav-header">
             <ul id="menu-nav" class="menu-nav">
-                <li><a href="">About</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Parts</a></li>
-                <li><a href="">News</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Installation Map</a></li>
-                <li><a href="">Product Literature</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Parts</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Installation Map</a></li>
+                <li><a href="#">Product Literature</a></li>
             </ul>
         </nav>
    </header> 
@@ -70,14 +70,12 @@
                     <!-- <img src="images/header-slider-img-03.jpg" alt="Photo of two Vulcan employees using tools and working together"> -->
                 </div>
             </div>
-
-        </section>
-        
-        <section class="treatment">
             <img class="wave wave-white" src="images/wave-white.png" alt=""> <!-- NN: images that are purely decorative do not require alt tags as they don't add info to the page contents-->
+        </section>
+        <section class="treatment">
             <h2>Customized Per Order</h2>  <!-- text transform uppercase, text center alligned, -->
-            <div>
             <p>Just as no two treatment plants are the same, no two of our screening, grit handling or sludge thickening products are either. We'll help determine exactly what you need.</p>
+            <div>
             <!-- below this are 4 images with their respective titles i think it would be best to use a display: grid; 2 column -->
             <!-- NN: because there are lines inbetween the different images and titles, I think its best if grid was 1col, 4rows -->
                 <div class="machine">
@@ -97,13 +95,12 @@
                     <h3>Sludge Thickening</h3>
                 </div>
             </div>
-        </section>
-
-        <section class="advisor">
             <img class="wave wave-darkblue" src="images/wave-blue-dark.png" alt="">
+        </section>
+        <section class="advisor">
             <h2>Product Advisor</h2>
             <p>Find your project's perfect fit.</p>
-        <!-- there is a random border bottom here .125rem solid white [NN TOUCHED UP] -->
+            <!-- there is a random border bottom here .125rem solid white [NN TOUCHED UP] -->
             <form>
                 <label for="product-type">Product Type</label>
                 <select name="product-type" id="product-type">
@@ -113,7 +110,7 @@
                     <option value="grit-handling">Grit Handling</option>
                     <option value="sludge-thickening">Sludge Thickening</option>
                 </select>
-
+                
                 <label for="screen-location">Screen Location</label>
                 <select name="screen-location" id="screen-location">
                     <option value="">Select</option>
@@ -123,26 +120,26 @@
                 <select name="flow-type" id="flow-type">
                     <option value="">Select</option>
                 </select>
-
+                
                 <label for="channel-depth">Channel Depth</label>
                 <select name="channel-depth" id="channel-depth">
                     <option value="">Select</option>
                 </select>
-
+                
                 <label for="channel-width">Channel Width</label>
                 <select name="channel-width" id="channel-width">
                     <option value="">Select</option>
                 </select>
-
+                
                 <input type="submit" value="Find my product">
             </form> 
         </section>
-
-        <section class="about-us">
+        
+        <section id="about" class="about-us">
             <!-- hero image with h2 text in front of it and P text below, with a button below that [NN TOUCHED UP] -->
             <h2 class="heading-1">Delivering clean, safe water since 1975. Refreshing indeed.</h2>
             <p>Vulcan wastewater screening equipment has played a vital role in protecting the water supply of more than 900 cities and communities throughout the world.</p>
-            <a href="" class="bordered-button"><p>About Us</p></a>
+            <a href="#" class="bordered-button"><p>About Us</p></a>
             <img src="images/bg-section-about-us.jpg" alt="Vulcan mechanic tending to a large machine inside the shop">
             <!-- below ^^ that content there is an embedded video  -->
 
@@ -176,10 +173,10 @@
             <h2 class="heading-1">Ready to spec <span class="own-line">Vulcan</span> for your project?</h2>
             <a href="" class="bordered-button"><p>Contact Us</p></a>
             <!-- vulcan logo very bottom center of the page -->
+            <img class="wave wave-lightblue" src="images/wave-blue-light.png" alt="">
         </section>
-   </main>
-   <footer>
-        <img class="wave wave-lightblue" src="images/wave-blue-light.png" alt="">
+    </main>
+    <footer>
         <div class="floating-content">
             <img src="images/logo-white-vulcan.svg" alt="Vulcan logo" class="logo">
             <!-- N: flex style on social-contact ? -->

@@ -4,7 +4,7 @@
 
 .treatment {
     height: 62rem;
-    top: -5.25rem;
+    // top: -5.25rem;
     display: flex;
     flex-direction: column;
 }
@@ -18,11 +18,11 @@
 }
 
 .treatment h2 {
-    top: 7rem;
+    top: 1.75rem;
 }
 
 .treatment div {
-    top: 3.75rem;
+    top: 1.25rem;
 }
 
 .treatment .machine {
@@ -39,7 +39,7 @@
 }
 
 .treatment p {
-    top: 3.25rem;
+    top: 1.75rem;
 }
 
 .treatment img:not(.wave) {

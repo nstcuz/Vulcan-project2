@@ -1,31 +1,24 @@
 @use 'vars' as *;
 
 footer {
+    padding: 0 1.25rem 1.25rem;
+    height: 10rem; 
     position: relative;
     background: $light-blue;
     color: $white; 
-    padding: 0 1.25rem 1.25rem; 
     text-align: center;
 
     .logo {
-        margin-bottom: 0.75rem;
+        margin: 1rem auto 1.25rem;
     }
-
-}
-
-.floating-content {
-    position: relative;
-    z-index: 100;
 }
 
 .social-contact {
-    // border: 2px solid red;
     display: flex; 
     justify-content: space-between;
     align-items: center; 
     margin-bottom: 0.5rem; 
     padding: 0;
-    // border: 2px solid red;
 
     div:first-child {
         justify-content: space-between;
@@ -34,20 +27,13 @@ footer {
     }
 
     div {
-        // border: 2px solid red;
         display: flex;
         justify-content: center;
-        // justify-content: space-between;
-        // margin-right: 1rem;
 
         p {
             margin-left: 0.125rem;
         }
     }
-}
-
-.copyright {
-    margin-bottom: 0.5rem;
 }
 
 .icon {

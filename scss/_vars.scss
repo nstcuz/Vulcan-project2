@@ -2,39 +2,29 @@
 $font: "Roboto";
 $font-condensed: "Roboto Condensed";
 $font-size-header1: 1.875rem;
-$font-size-header2: 1.5rem;
-$font-size-header3: 1.25rem;
-$font-size-header4: 1.125rem;
+$font-size-header2: 1.25rem;
 $font-size-body1: 1rem;
 $font-size-body2: .875rem;
 $font-size-body3: .75rem;
 $font-size-select: .9375rem;
 
-$text-blue: rgb(21,74,102);
-$text-white: rgb(255,255,255);
-$text-select: rgb(100,100,100);
-$text-drkgrey:  rgb(85,85,85);
-$text-lgtgrey: rgb(80,80,80);
-
 // colors
 $white: rgb(255,255,255);
 $dark-blue: rgb(21,74,102);
 $light-blue: rgb(1,157,220);
-$grey: rgb(85,85,85);
-$grey-dark: rgb(80,80,80);
+$light-grey: rgb(100,100,100);
+$dark-grey: rgb(80,80,80);
+$black: rgb(0,0,0);
 $newsletter-bg: rgb(190,220,239);
-$select-bg: rgb(187,187,187);
+$select-bg: rgb(186,186,186);
+$select-bg-hover: rgb(238,238,238);
 $video-bg: #367d22;
 
 //borders
 $border-box1: 1px solid rgb(255,255,255);
 $border-box2: 1px solid rgb(80,80,80);
-$border-bottom1: 1px solid rgb(204,204,204);
-$border-bottom2: 1px solid rgb(238,238,238);
+$border-line1: 1px solid rgb(204,204,204);
+$border-line2: 1px solid rgb(238,238,238);
 
 // header
 $header-bg-color: rgba(50,50,50,0.7);
-
-
-
-//footer

@@ -1,47 +1,43 @@
 @use 'vars' as *;
 
-
 .treatment {
     height: 62rem;
-    // top: -5.25rem;
     display: flex;
     flex-direction: column;
-}
 
-.treatment h2,
-.treatment div,
-.treatment p {
-    position: relative;
-    // background-color: $white;
-    z-index: 100;
-}
-
-.treatment h2 {
-    top: 1.75rem;
-}
-
-.treatment div {
-    top: 1.25rem;
-}
-
-.treatment .machine {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: $white;
-}
-
-.treatment .machine:not(:last-child) {
-    margin: 0 .625rem;
-    border-bottom: $border-bottom1;
-}
-
-.treatment p {
-    top: 1.75rem;
-}
-
-.treatment img:not(.wave) {
-    margin: .625rem;
-    height: 10.125rem;
+    h2,
+    div,
+    p {
+        position: relative;
+    }
+    
+    h2 {
+        top: 1.75rem;
+    }
+    
+    div {
+        top: 1.25rem;
+    }
+    
+    .machine {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .machine:not(:last-child) {
+        margin: 0 .625rem;
+        border-bottom: $border-line1;
+    }
+    
+    p {
+        margin: .375rem 2.25rem;
+        top: 1.75rem;
+    }
+    
+    img:not(.wave) {
+        margin: .625rem;
+        height: 10.125rem;
+    }
 }

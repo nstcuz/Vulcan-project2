@@ -14,11 +14,6 @@
 </head>
 <body>
    <header>
-        <!-- we have the vulcan logo && hamburger menu [NN ADDED]-->
-        <!-- the hamburger menu has a dropdown which covers 100% width and has 8 A links within [NN ADDED]-->
-        <!-- we have the vulcan logo && hamburger menu [NN ADDED]-->
-        <!-- the hamburger menu has a dropdown which covers 100% width and has 8 A links within [NN ADDED]-->
-        <!-- it will be in a flexbox with justify-content: space-between -->
         <a href="#"><img src="images/logo-white-vulcan.svg" alt="Vulcan logo and home icon" class="logo"></a>
         <button id="menu-button" class="menu-button" aria-label="Main Menu" aria-controls="primary-navigation" aria-expanded="false">
             <svg class="hamburger" viewBox="0 0 100 100" width="34">
@@ -51,13 +46,10 @@
    </header> 
    <main>
         <section class="hero-carousel">
-            <!-- HERO IMAGE with text positioned over top the hero might be a carosel with multiple images-->
-            <!-- 2 buttons, 'View products' && 'View services' [NN ADDED] -->
-            <!-- blue dots which show which image is being viewed -->
             <div class="slideshow-container">
                 <h1>We design and fabricate indestructable wastewater screens. Enough said.</h1>
-                <a href="" class="bordered-button"><p>View Products</p></a>
-                <a href="" class="bordered-button"><p>View Services</p></a>
+                <a href="#" class="bordered-button"><p>View Products</p></a>
+                <a href="#" class="bordered-button"><p>View Services</p></a>
                 <div class="dots-container">
                     <span class="dot" onclick="updateImageSrcWithDot(1)"></span>
                     <span class="dot" onclick="updateImageSrcWithDot(2)"></span>
@@ -65,22 +57,17 @@
                 </div>
                 <div id="slide">
                     <img id="heroImage" src="images/header-slider-img-01.jpg" alt="Photo of Vulcan factory from the outside with blue-coloured filter">
-                    <!-- N: below images/alts are saved for future JS, will be removed later-->
-                    <!-- <img src="images/header-slider-img-02.jpg" alt="Photo of a Vulcan employee who is actively welding"> -->
-                    <!-- <img src="images/header-slider-img-03.jpg" alt="Photo of two Vulcan employees using tools and working together"> -->
                 </div>
             </div>
-            <img class="wave wave-white" src="images/wave-white.png" alt=""> <!-- NN: images that are purely decorative do not require alt tags as they don't add info to the page contents-->
+            <img class="wave wave-white" src="images/wave-white.png" alt=" "> <!--Note*: images that are purely decorative do not require alt tags as they don't add info to the page contents-->
         </section>
         <section class="treatment">
-            <h2>Customized <span class="own-line">Per Order</span></h2>  <!-- text transform uppercase, text center alligned, -->
+            <h2>Customized <span class="own-line">Per Order</span></h2>
             <p>Just as no two treatment plants are the same, no two of our screening, grit handling or sludge thickening products are either. We'll help determine exactly what you need.</p>
             <div>
-            <!-- below this are 4 images with their respective titles i think it would be best to use a display: grid; 2 column -->
-            <!-- NN: because there are lines inbetween the different images and titles, I think its best if grid was 1col, 4rows -->
                 <div class="machine">
                     <img src="images/machine-01-300x274.png" alt="Screening machine">
-                    <h3>Screening</h3> <!-- NN: not sure to give these headings or specially-classed <p> tags -->
+                    <h3>Screening</h3>
                 </div>
                 <div class="machine">
                     <img src="images/machine-02-300x274.png" alt="Screening handling machine">
@@ -95,12 +82,11 @@
                     <h3>Sludge Thickening</h3>
                 </div>
             </div>
-            <img class="wave wave-darkblue" src="images/wave-blue-dark.png" alt="">
+            <img class="wave wave-darkblue" src="images/wave-blue-dark.png" alt=" "><!-- See note* on first wave image above-->
         </section>
         <section class="advisor">
             <h2>Product Advisor</h2>
             <p>Find your project's perfect fit.</p>
-            <!-- there is a random border bottom here .125rem solid white [NN TOUCHED UP] -->
             <form>
                 <label for="product-type">Product Type</label>
                 <select name="product-type" id="product-type">
@@ -133,70 +119,54 @@
                 
                 <input type="submit" value="Find my product">
             </form> 
-        </section>
-        
+        </section>      
         <section class="about-us">
-            <!-- hero image with h2 text in front of it and P text below, with a button below that [NN TOUCHED UP] -->
             <h2 class="heading-1">Delivering clean, safe water since 1975. Refreshing indeed.</h2>
             <p>Vulcan wastewater screening equipment has played a vital role in protecting the water supply of more than 900 cities and communities throughout the world.</p>
             <a href="#" class="bordered-button"><p>About Us</p></a>
             <img src="images/bg-section-about-us.jpg" alt="Vulcan mechanic tending to a large machine inside the shop">
-            <!-- below ^^ that content there is an embedded video  -->
-
         </section>
-
         <section class="video-section">
             <div class="video-container">
                 <iframe src="https://player.vimeo.com/video/183929811?h=46d7273d42&title=0&byline=0&playsinline&play_button_position=center" width="245" height="139"></iframe>
             </div>
         </section>
-
         <section class="newsletter">
-            <h2 class="sign-up">Stay in the know. Sign up for our newsletter.</h2>
-            <!-- im not sure if this is semantically a form.... or if it is just an input && input type='submit' [NN ADDED]-->
+            <h2>Stay in the know. Sign up for our newsletter.</h2>
             <form>
                 <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email">
                 <input type="submit" value="Submit">
             </form>
         </section>
-
         <section class="installation">
-            <!-- ANOTHER HERO IMAGE, THEY REALLY CANT GET ENOUGH OF THEM HEY [NN: LOL it's not a carousel at least!]-->
             <img src="images/map.jpg" alt="background image displaying a map with the location of vulcan">
             <div class='flex-container'>
-                <h2 class="heading-1 find">Installed in <span class="own-line">a city near you</span></h2>
+                <h2 class="heading-1">Installed in <span class="own-line">a city near you</span></h2>
                 <a href="#" class="bordered-button find"><p>Find a Vulcan install</p></a>
             </div>
         </section>
-
         <section class="contact">
             <h2 class="heading-1">Ready to spec <span class="own-line">Vulcan</span> for your project?</h2>
             <a href="" class="bordered-button"><p>Contact Us</p></a>
-            <!-- vulcan logo very bottom center of the page -->
-            <img class="wave wave-lightblue" src="images/wave-blue-light.png" alt="">
+            <img class="wave wave-lightblue" src="images/wave-blue-light.png" alt=""> <!--See note* on first wave image above-->
         </section>
     </main>
     <footer>
-        <div class="floating-content">
-            <img src="images/logo-white-vulcan.svg" alt="Vulcan logo" class="logo">
-            <!-- N: flex style on social-contact ? -->
-            <div class="social-contact">
-                <div>
-                    <img src="images/icon-white-facebook.png" alt="Facebook icon" class="icon">
-                    <img src="images/icon-white-linkedin.png" alt="LinkedIn icon" class="icon">
-                </div>
-                <!-- N: I don't know how to use fontello to grab the phone and email icons...-->
-                <div>
-                    <i class="icon-phone-circled"></i>
-                    <p>+1 712-642-2755</p>
-                </div>
-                <div>
-                    <i class="icon-mail-circled"></i>
-                    <p>CONTACT US</p>
-                </div>
+        <img src="images/logo-white-vulcan.svg" alt="Vulcan logo" class="logo">
+        <div class="social-contact">
+            <div>
+                <img src="images/icon-white-facebook.png" alt="Facebook icon" class="icon">
+                <img src="images/icon-white-linkedin.png" alt="LinkedIn icon" class="icon">
+            </div>
+            <div>
+                <i class="icon-phone-circled"></i>
+                <p>+1 712-642-2755</p>
+            </div>
+            <div>
+                <i class="icon-mail-circled"></i>
+                <p>CONTACT US</p>
             </div>
         </div>
-        <!-- socials on the top half of the footer -->
         <p class="copyright">COPYRIGHT 2017. ALL RIGHTS RESERVED</p>
    </footer>
    <script src="script/script.js"></script>

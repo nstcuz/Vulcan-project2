@@ -2,42 +2,38 @@
 
 .about-us {
     height: 35.375rem;
-}
 
-.about-us img{
-    position: absolute;
-}
+    img {
+        position: absolute;
+    }
+    
+    h2,
+    p,
+    .bordered-button p {
+        margin: 0 auto;
+        position: relative;
+    }
 
-.about-us h2,
-.about-us p,
-.about-us .bordered-button p{
-    position: relative;
-}
-
-.about-us h2 {
-    top: 9.75rem;
-}
-
-.about-us p:not(.bordered-button p) {
-    top: 11rem;
-    width: 15.625rem;
-    margin: 0 auto;
-}
-
-.about-us .bordered-button p {
-    top: 14.75rem;
-    // display: block;
-    margin: 0 auto;
-    // padding: 0.75rem;
-    // width: 125px;
-}
-
-.about-us img {
-    top: 0;
-    width: 100%;
-    height: 36rem;
-    object-fit: cover;
-    object-position: center;
-    overflow: hidden;
-    z-index: -10;
+    h2 {
+        top: 9.75rem;
+    }
+    
+    p:not(.bordered-button p) {
+        top: 11rem;
+        width: 15.625rem;
+    }
+    
+    .bordered-button p {
+        top: 14.75rem;
+    }
+    
+    img {
+        top: 0;
+        width: 100%;
+        height: 35.375rem;
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+        z-index: -10;
+    }
 }

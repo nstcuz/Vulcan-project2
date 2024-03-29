@@ -3,39 +3,28 @@
 .newsletter {
     height: 7.625rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: $newsletter-bg;
-}
-
-.newsletter h2,
-.newsletter form {
-    position: absolute;
-}
-
-.newsletter h2 {
-    margin: 1.375rem auto 1rem;
-    text-align: center;
-}
-
-.newsletter form {
-    padding: 0 .625rem 1.5rem;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.newsletter input[type="email"],
-.newsletter input[type="submit"] {
-    border: none;
-}
-
-.newsletter input[type="email"] {
-    padding: .625rem 1.25rem .65rem;
-    width: 15.5rem;
-}
-
-.newsletter input[type="submit"] {
-    padding: .5rem 1.125rem;
-    background-color: $light-blue;
+    
+    h2 {
+        margin: 1.375rem auto 1rem;
+    }
+    
+    form {
+        padding: 0 .625rem 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    input[type="email"] {
+        padding: .625rem 1.25rem .65rem;
+        width: 15.5rem;
+    }
+    
+    input[type="submit"] {
+        padding: .5rem 1.125rem;
+        background-color: $light-blue;
+    }
 }

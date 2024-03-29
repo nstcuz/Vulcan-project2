@@ -8,11 +8,11 @@
     display: block;
     position: fixed;
     right: .5rem;
-  }
 
-.menu-button .line {
-    transition: transform 200ms ease-in, opacity 200ms ease-in;
-    transform-origin: center center; 
+    .line {
+        transition: transform 200ms ease-in, opacity 200ms ease-in;
+        transform-origin: center center; 
+    }
 }
 
 .menu-button[aria-expanded=true] .ham-top {

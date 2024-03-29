@@ -1,11 +1,11 @@
 @use 'vars' as *;
 
 nav {
-    background-color: $header-bg-color;
     width: 100%;
     position: fixed;
     top: 3.75rem;
     left: 0;
+    background-color: $header-bg-color;
 }
   
 nav > ul {
@@ -13,16 +13,10 @@ nav > ul {
     padding-inline-start: 0;
     display: none;
     list-style: none;
-    text-transform: uppercase;
 }
 
 nav ul li {
     padding: .25rem .875rem;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: $white;
 }
 
 nav ul li:hover {

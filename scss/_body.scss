@@ -12,13 +12,17 @@ footer {
     overflow: hidden;
 }
 
+select,
+input[type=submit] {
+    cursor: pointer;
+}
+
 .logo {
-        width: 6.25rem;
+    width: 6.25rem;
 }
 
 .wave {
     position: absolute;
-    z-index: 50;
 }
 
 .wave-white,
@@ -34,16 +38,11 @@ footer {
 
 .wave-darkblue {
     bottom: -4.5rem;
-    background-color: $white;
-    // z-index: 50;
 }
 
 .wave-lightblue {
     width: 51.25rem;
     height: 9rem;
-    bottom: -4.875rem;
-    // top: -4rem;
+    bottom: -5rem;
     left: -8.125rem;
-    background-color: $dark-blue;
-    // z-index: 50;
 }
